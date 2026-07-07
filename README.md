@@ -6,11 +6,11 @@
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)]()
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)]()
-[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)]()
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://hemanth-hate-speech-detection.streamlit.app/)
 [![NLP](https://img.shields.io/badge/NLP-00599C?style=for-the-badge)]()
 
 ### 🔗 Live Demo
-**https://YOUR-STREAMLIT-LINK.streamlit.app/**
+**https://hemanth-hate-speech-detection.streamlit.app/**
 
 Detect hate speech in real time using a Machine Learning pipeline built with **TF-IDF Vectorization**, **Logistic Regression**, and an interactive **Streamlit** web application.
 
@@ -86,7 +86,7 @@ Interactive Streamlit Interface
 Hate-Speech-Detection-System/
 │
 ├── data/
-│   └── hate_speech_dataset.csv
+│   └── dataset_information.md
 │
 ├── models/
 │   ├── hate_speech_model.pkl
