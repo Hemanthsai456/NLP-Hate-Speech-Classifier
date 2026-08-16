@@ -90,12 +90,6 @@ st.sidebar.markdown("""
 - Pandas
 """)
 
-st.sidebar.markdown("---")
-
-st.sidebar.caption("Developed by")
-
-st.sidebar.write("**Ch. Hemanth Sai**")
-
 # ---------------------------------------------------------------------
 # Main Page
 # ---------------------------------------------------------------------
@@ -117,7 +111,7 @@ st.subheader("📝 Enter Text")
 
 examples = {
     "😊 Positive": "I hope you have a wonderful day and achieve all your goals.",
-    "😐 Neutral": "Why are you like this",
+    "😐 Neutral": "you need to buckle up now",
     "⚠️ Hate Speech": "You are an idiot and nobody likes you."
 }
 
@@ -271,7 +265,24 @@ with st.expander("ℹ About the Project"):
 
 st.markdown("---")
 
-st.caption(
-    "Built using Python, Scikit-Learn, and Streamlit • "
-    "Portfolio Project by Ch. Hemanth Sai"
-)
+st.markdown("""Built using Python, Scikit-Learn, and Streamlit""")
+
+st.markdown("""
+### 👤 Developer
+**Charagundla Hemanth Sai**
+""")
+
+
+st.markdown("""
+### Contact Information
+
+🎯 **Interested in:** Data Analytics • Business Intelligence • Data Engineering • Machine Learning
+
+📧 **Email:** hemanthsai.ch456@gmail.com
+
+🔗 **LinkedIn:** https://www.linkedin.com/in/hemanthsai456/
+
+💻 **GitHub:** https://github.com/Hemanthsai456
+
+💻 **GitHub Repository:** https://github.com/Hemanthsai456/Hate-Speech-Detection-System
+""")
