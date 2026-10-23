@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛑 Hate Speech Detection System
+# 🛑 NLP Hate Speech Classifier
 
 ### Real-Time Hate Speech Detection using Natural Language Processing and Machine Learning
 
